@@ -1,2 +1,3 @@
 # stopncii.org-clone
-https://stopncii.org/clone
+stopncii.org-clone
+
