@@ -1,0 +1,160 @@
+/* For Tablet or Small Screen Laptops */
+
+@media screen and (max-width: 991px) {
+  /* nav header */
+  .header-nav-options > ul {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  /* main nav bar */
+  nav {
+    display: none;
+  }
+
+  /* Header hero section */
+  .hero-section-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .heading-text {
+    margin-inline-start: 0;
+  }
+
+  /* help section */
+  .help-section-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* company info section */
+
+  .company-info-container {
+    flex-direction: column;
+  }
+  .left-panel-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .right-panel-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Privacy Section */
+  .privacy-section-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .privacy-img-container {
+    width: 100%;
+  }
+  /* Eligiblity section*/
+
+  .elegiblity-section-container {
+    flex-direction: column;
+  }
+
+  /* work progress container */
+  .work-process-section-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .work-section-img-container {
+    width: 100%;
+  }
+  .work-section-img-container > p {
+    align-items: flex-start;
+  }
+  .work-section-descp-container {
+    margin-inline-start: 0;
+  }
+}
+
+/* For Mobile Device */
+
+@media screen and (max-width: 480px) {
+  .footer-icon-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-img-container {
+    margin: 0 0;
+    justify-content: flex-start;
+  }
+  .footer-link-container {
+    margin: 0 13px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* utility class */
+  body {
+    font-size: 0.8em;
+  }
+  .container {
+    padding: 15px 5px;
+  }
+
+  /* Header hero section */
+  .hero-img img {
+    max-width: 260px;
+  }
+  .secondory-btn {
+    display: none;
+  }
+  /* Help Section */
+  .help-section::after,
+  .help-section::before {
+    height: 20px;
+  }
+  .help-section-container {
+    gap: 20px;
+  }
+  .help-img img {
+    min-height: 100px;
+    min-width: 100px;
+  }
+
+  /* Company info section */
+  .content-box-img-left,
+  .contant-box-img-right {
+    min-width: none;
+    padding: 10px 165px 10px 5px;
+  }
+  .company-info-section {
+    margin-block-start: 45px;
+  }
+  .company-info-section::after {
+    height: 25px;
+  }
+  /* Privacy section */
+  .content-privacy-img {
+    min-width: none;
+    padding: 0 145px 0 5px;
+  }
+  /* Elegiblity section */
+  .eligiblity-section::before,
+  .eligiblity-section::after {
+    height: 25px;
+  }
+  .elegiblity-section-container {
+    gap: 25px;
+  }
+  .Peoples-img img {
+    height: 100px;
+    width: 100px;
+  }
+
+  /* Work process section */
+  .work-process-section {
+    padding: 50px 0 50px;
+  }
+  .work-section-img {
+    min-width: none;
+    padding: 0 5px 0 145px;
+  }
+}
